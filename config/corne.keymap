@@ -74,7 +74,7 @@
       bindings = <
         &kp TAB    &kp N1 &kp N2 &kp N3 &kp N4 &kp N5   &kp N6  &kp N7    &kp N8    &kp N9   &kp N0   &kp BSPC
         &kp ESC    &kp A  &kp S  &kp D  &kp F  &none    &kp H   &kp J     &kp K     &kp L    &kp SEMI &kp BSLH
-        &kp LSHIFT &none  &none  &kp V  &kp B  &none    &none   &none     &kp COMMA &kp LBKT &kp RBKT &kp PSCRN 
+        &kp LSHIFT &none  &none  &none  &kp V  &kp B    &none   &none     &kp COMMA &kp LBKT &kp RBKT &kp PSCRN 
                                  &none  &none  &none    &kp RET &kp RCTRL &kp LALT
       >;
     };
