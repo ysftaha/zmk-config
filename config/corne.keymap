@@ -7,6 +7,7 @@
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/ext_power.h>
+#include <dt-bindings/zmk/outputs.h>
 
 / {
     macros {
@@ -56,12 +57,12 @@
     functions {
       // |  F1  |  F2 |  F3 |  F4 |  F5 |  F6 |   |  F7 |  F8 |  F9 |  F10|  F11|  F12 |
       // | br dn|     |     |     |     |     |   | LFT | DWN |  UP | RGT |     | br up|
-      // | bt-n |     |     |     |     |     |   |     |     |     |     |     |      |
+      // | bt-n |     |     |     |     |bt-c |   |usbbt|     |     |     |     |      |
       //                    | V Dp| Mute| V up|   | prev| pp  | next|
       bindings = <
       &kp F1       &kp F2       &kp F3       &kp F4         &kp F5       &kp F6         &kp F7       &kp F8   &kp F9     &kp F10   &kp F11 &kp F12
       &kp C_BRI_DN &none        &none        &none          &none        &none          &kp LEFT     &kp DOWN &kp UP     &kp RIGHT &none   &kp C_BRI_UP
-      &bt BT_NXT  &none        &none        &none          &none        &bt BT_CLR     &none        &none    &none      &none     &none   &none
+      &bt BT_NXT   &none        &none        &none          &none        &bt BT_CLR     &out OUT_TOG &none    &none      &none     &none   &none
                                              &kp C_VOL_DN   &kp C_MUTE   &kp C_VOL_UP   &kp C_PREV   &kp C_PP &kp C_NEXT
       >;
     };
