@@ -62,7 +62,7 @@
       bindings = <
       &kp F1       &kp F2       &kp F3       &kp F4         &kp F5       &kp F6         &kp F7       &kp F8   &kp F9     &kp F10   &kp F11 &kp F12
       &kp C_BRI_DN &none        &none        &none          &none        &none          &kp LEFT     &kp DOWN &kp UP     &kp RIGHT &none   &kp C_BRI_UP
-      &bt BT_NXT   &none        &none        &none          &none        &bt BT_CLR     &out OUT_TOG &none    &none      &none     &none   &none
+      &bt BT_NXT   &none        &none        &none          &none        &bt BT_CLR     &out OUT_TOG &none    &none      &none     &tog 4  &none
                                              &kp C_VOL_DN   &kp C_MUTE   &kp C_VOL_UP   &kp C_PREV   &kp C_PP &kp C_NEXT
       >;
     };
@@ -79,5 +79,18 @@
                                  &none  &none  &none    &kp RET &kp RCTRL &kp LALT
       >;
     };
+    league {
+      // |  TAB   |  1  |  2  |  3  |  4  |  5  |   |  6  |  7  |  8  |  9  |  0  | BKSP |
+      // |  ESC   |  a  |  s  |  d  |  f  |     |   |  h  |  j  |  k  |  l  |  ;  | \    |
+      // |  SHIFT |     |     |     |  v  |  b  |   |     |     |  ,  |  [  |  ]  | print|
+      //                    | GUI |     | SPC |   | ENT |     | ALT |
+      bindings = <
+        &kp GRAVE  &kp N1   &kp N2    &kp N3    &kp N4 &kp C    &none &none &none &none &none  &none 
+        &kp TAB    &kp Q    &kp W     &kp E     &kp R  &kp T    &none &none &none &none &none  &none 
+        &kp LCTRL  &kp Z    &kp S     &kp D     &kp F  &kp B    &none &none &none &none &tog 4 &none 
+
+                               &kp LSHIFT &kp SPACE &kp LALT    &none &none &none
+      >;
+    }
   };
 };
