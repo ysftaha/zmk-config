@@ -91,6 +91,6 @@
 
                                &kp LSHIFT &kp SPACE &kp LALT    &none &none &none
       >;
-    }
+    };
   };
 };
