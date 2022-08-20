@@ -36,8 +36,8 @@
       bindings = <
       &kp TAB   &kp Q &kp W &kp E &kp R &kp T   &kp Y &kp U  &kp I     &kp O   &kp P    &kp BSPC
       &kp ESC   &kp A &kp S &kp D &kp F &kp G   &kp H &kp J  &kp K     &kp L   &kp SEMI &kp SQT
-      &kp LSHFT &kp Z &kp X &kp C &kp V &kp B   &kp N &kp M  &kp COMMA &kp DOT &kp FSLH &mo 2
-                         &mo 1 &dwm &kp SPACE   &kp RET &kp RCTRL &kp LALT
+      &kp LALT  &kp Z &kp X &kp C &kp V &kp B   &kp N &kp M  &kp COMMA &kp DOT &kp FSLH &mo 2
+                         &mo 1 &dwm &kp SPACE   &kp RET &kp RCTRL &kp LSHIFT
       >;
     };
 
@@ -49,7 +49,7 @@
       bindings = <
       &kp GRAVE  &kp N1   &kp N2    &kp N3    &kp N4   &kp N5            &kp N6    &kp N7    &kp N8          &kp N9   &kp N0   &kp BSPC
       &kp ESC    &kp EXCL &kp AT    &kp HASH  &kp DLLR &kp PRCNT         &kp CARET &kp AMPS  &kp KP_MULTIPLY &kp LPAR &kp RPAR &kp BSLH
-      &kp LSHIFT &none    &kp UNDER &kp TILDE &kp PIPE &kp LBRC          &kp RBRC  &kp MINUS &kp PLUS        &kp LBKT &kp RBKT &kp EQUAL
+      &none      &none    &kp UNDER &kp TILDE &kp PIPE &kp LBRC          &kp RBRC  &kp MINUS &kp PLUS        &kp LBKT &kp RBKT &kp EQUAL
                                     &none     &none    &kp SPACE         &kp RET   &none     &none
       >;
     };
@@ -75,8 +75,8 @@
       bindings = <
         &kp TAB    &kp N1 &kp N2 &kp N3 &kp N4 &kp N5   &kp N6  &kp N7    &kp N8    &kp N9   &kp N0   &kp BSPC
         &kp ESC    &kp A  &kp S  &kp D  &kp F  &kp G    &kp H   &kp J     &kp K     &kp L    &kp SEMI &kp BSLH
-        &kp LSHIFT &kp Z  &kp X  &kp C  &kp V  &kp B    &kp N   &kp M     &kp COMMA &kp LBKT &kp RBKT &kp PSCRN 
-                                 &none  &none  &none    &kp RET &kp RCTRL &kp LALT
+        &kp LALT &kp Z  &kp X  &kp C  &kp V  &kp B    &kp N   &kp M     &kp COMMA &kp LBKT &kp RBKT &kp PSCRN 
+                                 &none  &none  &none    &kp RET &kp RCTRL &kp LSHIFT
       >;
     };
   };
