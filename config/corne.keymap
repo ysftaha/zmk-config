@@ -21,10 +21,7 @@ name: name { \
 
 / {
     macros {
-        ZMK_MACRO(my_macro,
-          bindings = <&macro_press &kp RCTRL &kp RSHIFT &kp P>
-                   , <&macro_release &kp RCTRL &kp RSHIFT>;
-        )
+        SC(P)
         dwm: dwm {
             label = "dwm";
             compatible = "zmk,behavior-macro";
@@ -87,7 +84,7 @@ name: name { \
     functions {
       bindings = <
       &kp F11      &kp F1       &kp F2       &kp F3         &kp F4       &kp F5              &kp F6       &kp F7   &kp F8     &kp F9    &kp F10  &kp F12
-      &kp C_BRI_DN &none        &none        &none          &xpp         &my_macro                  &kp LEFT     &kp DOWN &kp UP     &kp RIGHT &none    &kp C_BRI_UP
+      &kp C_BRI_DN &none        &none        &none          &xpp         &P                  &kp LEFT     &kp DOWN &kp UP     &kp RIGHT &none    &kp C_BRI_UP
       &bt BT_NXT   &none        &none        &none          &none        &bt BT_CLR          &out OUT_TOG &none    &none      &none     &kp RALT &none
                                              &kp C_VOL_DN   &kp C_MUTE   &kp C_VOL_UP        &kp C_PREV   &kp C_PP &kp C_NEXT
       >;
