@@ -21,6 +21,12 @@
               , <&macro_release &mo 3 &kp LGUI>
                 ;
         };
+        xpp: xpp {
+            label = "xpp";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&macro_press &to P &kp RCTRL>;
+        };
     };
 };
 
