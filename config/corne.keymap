@@ -25,7 +25,14 @@
             label = "xpp";
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&macro_press &to 0 &kp RCTRL>;
+            bindings = <&macro_press &to 4 &kp RCTRL &kp RSHIFT>;
+        };
+        release: release {
+            label = "release";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&macro_press &to 0>
+                     , <&macro_release &kp RCTRL &kp RSHIFT>;
         };
     };
 };
@@ -67,6 +74,15 @@
         &kp ESC    &kp A  &kp S  &kp D  &kp F  &kp G    &kp H   &kp J     &kp K     &kp L    &kp SEMI &kp BSLH
         &kp LALT   &kp Z  &kp X  &kp C  &kp V  &kp B    &kp N   &kp M     &kp COMMA &kp LBKT &kp RBKT &kp PSCRN 
                                  &none  &none  &none    &kp RET &kp RCTRL &kp LSHIFT
+      >;
+    };
+
+    xpp {
+      bindings = <
+        &none   &none &none &none &none &none   &none &none &none &none &none &none 
+        &kp ESC &none &none &none &kp P &kp E   &none &none &none &none &none &none 
+        &none   &none &none &none &none &none   &none &none &none &none &none &release 
+                          &none  &none  &none   &none &none &none 
       >;
     };
   };
