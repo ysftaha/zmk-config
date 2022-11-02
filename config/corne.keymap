@@ -11,12 +11,13 @@
 #include <dt-bindings/zmk/outputs.h>
 
 #define SC(name) \
-ZMK_MACRO(name, \
+name: name { \
+    label = "name"; \
+    compatible = "zmk,behavior-macro"; \
+    #binding-cells = <0>; \
     bindings = <&macro_press &kp RCTRL &kp RSHIFT &kp name> \
-    , <&macro_release &kp RCTRL &kp RSHIFT>; \
-    )
-
-#define S(name) 1
+             , <&macro_release &kp RCTRL &kp RSHIFT>; \
+};
 
 / {
     macros {
