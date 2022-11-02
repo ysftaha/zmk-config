@@ -92,7 +92,7 @@
       bindings = <
         &none   &kp H &kp E &kp F &kp T &kp X       &none &none &none &none &none &none 
         &kp ESC &kp I &kp A &kp R &kp P &kp G       &none &none &none &none &none &none 
-        &kp D   &none &none &none &none &release    &none &none &none &none &none &release 
+        &kp D   &kp J &none &none &none &release    &none &none &none &none &none &release 
                             &none &xppe &none       &none &none &none 
       >;
     };
