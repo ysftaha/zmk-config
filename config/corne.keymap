@@ -10,6 +10,13 @@
 #include <dt-bindings/zmk/ext_power.h>
 #include <dt-bindings/zmk/outputs.h>
 
+#define SC(name) \
+ZMK_MACRO(name, \
+    bindings = <&macro_press &kp RCTRL &kp RSHIFT &kp name> \
+    , <&macro_release &kp RCTRL &kp RSHIFT>; \
+    )
+
+#define S(name) 1
 
 / {
     macros {
