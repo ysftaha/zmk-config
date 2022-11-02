@@ -20,22 +20,6 @@
                 <&macro_pause_for_release>,
                 <&macro_release &mo 3 &kp LGUI>;
         };
-        xournal: xournal {
-            label = "xournal";
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&macro_press &to 3 &kp RCTRL &kp RSHIFT>;
-        };
-        misc: misc {
-            label = "misc";
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&macro_press &mo 5>
-                       <&macro_release &kp RSHIFT>,
-                       <&macro_pause_for_release>,
-                       <&macro_release &mo 5>,
-                       <&marco_press &kp RSHIFT>;
-        };
     };
 };
 
@@ -78,24 +62,5 @@
                                  &none  &none  &none    &kp RET &kp RCTRL &kp LSHIFT
       >;
     };
-
-    xournal {
-      bindings = <
-        &kp S   &kp G  &kp R  &kp A  &kp F  &kp X    &none &none &none &none &none &none
-        &kp ESC &kp P  &kp E  &kp H  &kp T  &kp I    &none &none &none &none &none &none
-        &none   &kp Z  &kp X  &kp C  &kp V  &kp B    &none &none &none &none &none &none  
-                              &none  &misc  &none    &none &none &none
-        >;
-    };
-
-    misc {
-      bindings = <
-        &none  &kp N1 &kp N2 &kp N4 &kp N6 &kp N7   &none &none &none &none &none &none
-        &none  &kp A  &none  &none  &none  &none    &none &none &none &none &none &none
-        &none  &kp Z  &kp X  &kp C  &kp V  &kp Y    &none &none &none &none &none &none  
-                             &none  &none  &none    &none &none &none
-        >;
-    };
-
   };
 };
