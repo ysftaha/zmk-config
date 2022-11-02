@@ -16,7 +16,7 @@
         ZMK_MACRO(my_macro,
           bindings = <&macro_press &kp RCTRL &kp RSHIFT &kp P>
                    , <&macro_release &kp RCTRL &kp RSHIFT>;
-        );
+        )
         dwm: dwm {
             label = "dwm";
             compatible = "zmk,behavior-macro";
