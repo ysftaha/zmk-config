@@ -1,6 +1,7 @@
 /*
 * vim: ft=c
 * vim: tw=0
+* FIXME when parameterized macros are merged xpp and xppe need a rewrite
 */
 
 #include <behaviors.dtsi>
