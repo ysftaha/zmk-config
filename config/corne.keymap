@@ -58,7 +58,7 @@
       &kp TAB   &kp Q &kp W &kp E &kp R &kp T   &kp Y &kp U  &kp I     &kp O   &kp P    &kp BSPC
       &kp ESC   &kp A &kp S &kp D &kp F &kp G   &kp H &kp J  &kp K     &kp L   &kp SEMI &kp SQT
       &kp LALT  &kp Z &kp X &kp C &kp V &kp B   &kp N &kp M  &kp COMMA &kp DOT &kp FSLH &mo 2
-                         &mo 1 &dwm &kp SPACE   &kp RET &kp RCTRL &kp LSHIFT
+                         &mo 1 &dwm &kp SPACE   &kp RET &kp RCTRL &sk LSHIFT
       >;
     };
 
@@ -85,7 +85,7 @@
         &kp TAB    &kp N1 &kp N2 &kp N3 &kp N4 &kp N5   &kp N6  &kp N7    &kp N8    &kp N9   &kp N0   &kp BSPC
         &kp ESC    &kp A  &kp S  &kp D  &kp F  &kp G    &kp H   &kp J     &kp K     &kp L    &kp SEMI &kp BSLH
         &kp LALT   &kp Z  &kp X  &kp C  &kp V  &kp B    &kp N   &kp M     &kp COMMA &kp LBKT &kp RBKT &kp PSCRN 
-                                 &xpp   &none  &none    &kp RET &kp RCTRL &kp LSHIFT
+                                 &xpp   &none  &none    &kp RET &kp RCTRL &sk LSHIFT
       >;
     };
 
