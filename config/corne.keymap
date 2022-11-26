@@ -39,16 +39,6 @@
                      , <&macro_press &kp RSHIFT>
               ;
         };
-        xppdwm: xppdwm {
-            label = "xppdwm";
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&macro_press &release>
-                     , <&macro_press &dwm>
-                     , <&macro_pause_for_release>
-                     , <&macro_press &xpp>
-              ;
-        };
         release: release {
             label = "release";
             compatible = "zmk,behavior-macro";
@@ -101,10 +91,10 @@
 
     xpp {
       bindings = <
-        &none   &kp H &kp E &kp F &kp T   &kp X       &none &none &none &none &none &none 
-        &kp ESC &kp I &kp A &kp R &kp P   &kp G       &none &none &none &none &none &none 
-        &kp DEL &kp J &none &none &none   &release    &none &none &none &none &none &release 
-                            &xppe &xppdwm &none       &none &none &none 
+        &none   &kp H &kp E &kp F &kp T &kp X       &none &none &none &none &none &none 
+        &kp ESC &kp I &kp A &kp R &kp P &kp G       &none &none &none &none &none &none 
+        &kp DEL &kp J &none &none &none &release    &none &none &none &none &none &release 
+                            &none &xppe &none       &none &none &none 
       >;
     };
 
