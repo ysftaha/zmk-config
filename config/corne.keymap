@@ -45,11 +45,13 @@
             #binding-cells = <0>;
             bindings = <&macro_press &mo 3>
                      , <&macro_release &kp RSHIFT>
+                     , <&macro_release &kp RCTRL>
                      , <&macro_press &kp LGUI>
                      , <&macro_pause_for_release>
                      , <&macro_release &mo 3>
                      , <&macro_release &kp LGUI>
                      , <&macro_press &kp RSHIFT>
+                     , <&macro_press &kp RCTRL>
               ;
         };
         release: release {
