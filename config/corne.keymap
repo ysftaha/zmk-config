@@ -21,13 +21,6 @@
               , <&macro_release &mo 3 &kp LGUI>
                 ;
         };
-        release: release {
-            label = "release";
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&macro_press &to 0>
-                     , <&macro_release &kp RCTRL &kp RSHIFT>;
-        };
     };
 };
 
