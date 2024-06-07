@@ -10,16 +10,6 @@
 #include <dt-bindings/zmk/outputs.h>
 
 / {
-    chosen {
-      zmk,battery = &vbatt;
-    };
-
-    vbatt: vbatt {
-        compatible = "zmk,battery-nrf-vddh";
-    };
-}
-
-/ {
     macros {
         dwm: dwm {
             label = "dwm";
