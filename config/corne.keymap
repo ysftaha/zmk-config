@@ -41,8 +41,8 @@
     symbols {
       bindings = <
       &kp GRAVE      &kp N1         &kp N2          &kp N3    &kp N4     &kp N5            &kp N6    &kp N7    &kp N8          &kp N9   &kp N0   &kp BSPC
-      &msc SCRL_UP   &kp EXCL       &kp AT          &kp HASH  &kp DLLR   &kp PRCNT         &kp CARET &kp AMPS  &kp KP_MULTIPLY &kp LPAR &kp RPAR &kp BSLH
-      &msc SCRL_DOWN &msc SCRL_LEFT &msc SCRL_RIGHT &kp UNDER &kp MINUS  &kp LBRC          &kp RBRC  &kp PLUS  &kp EQUAL       &kp LBKT &kp RBKT &kp PIPE
+      &msc SCRL_UP 5   &kp EXCL       &kp AT          &kp HASH  &kp DLLR   &kp PRCNT         &kp CARET &kp AMPS  &kp KP_MULTIPLY &kp LPAR &kp RPAR &kp BSLH
+      &msc SCRL_DOWN  5 &msc SCRL_LEFT 5 &msc SCRL_RIGHT 5 &kp UNDER &kp MINUS  &kp LBRC          &kp RBRC  &kp PLUS  &kp EQUAL       &kp LBKT &kp RBKT &kp PIPE
                                                     &none     &kp KP_NUM &kp SPACE         &kp RET   &kp TILDE &none
       >;
     };
