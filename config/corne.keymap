@@ -13,7 +13,6 @@
 / {
     macros {
         dwm: dwm {
-            label = "dwm";
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings
