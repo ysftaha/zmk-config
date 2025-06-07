@@ -8,6 +8,7 @@
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/ext_power.h>
 #include <dt-bindings/zmk/outputs.h>
+#include <dt-bindings/zmk/pointing.h>
 
 / {
     macros {
@@ -40,10 +41,10 @@
 
     symbols {
       bindings = <
-      &kp GRAVE      &kp N1         &kp N2          &kp N3    &kp N4     &kp N5            &kp N6    &kp N7    &kp N8          &kp N9   &kp N0   &kp BSPC
-      &msc SCRL_UP 5   &kp EXCL       &kp AT          &kp HASH  &kp DLLR   &kp PRCNT         &kp CARET &kp AMPS  &kp KP_MULTIPLY &kp LPAR &kp RPAR &kp BSLH
+      &kp GRAVE         &kp N1           &kp N2            &kp N3    &kp N4     &kp N5            &kp N6    &kp N7    &kp N8          &kp N9   &kp N0   &kp BSPC
+      &msc SCRL_UP 5    &kp EXCL         &kp AT            &kp HASH  &kp DLLR   &kp PRCNT         &kp CARET &kp AMPS  &kp KP_MULTIPLY &kp LPAR &kp RPAR &kp BSLH
       &msc SCRL_DOWN  5 &msc SCRL_LEFT 5 &msc SCRL_RIGHT 5 &kp UNDER &kp MINUS  &kp LBRC          &kp RBRC  &kp PLUS  &kp EQUAL       &kp LBKT &kp RBKT &kp PIPE
-                                                    &none     &kp KP_NUM &kp SPACE         &kp RET   &kp TILDE &none
+                                                           &none     &kp KP_NUM &kp SPACE         &kp RET   &kp TILDE &none
       >;
     };
 
